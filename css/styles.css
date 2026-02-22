@@ -23,7 +23,7 @@ ul {
     text-transform: uppercase;
     letter-spacing: 0.03em;
     color: #2e2f42;
-    line-height: 1.333;
+    line-height: 1.33;
 }
 
 .logo span {
@@ -35,7 +35,7 @@ ul {
     color: #2e2f42;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.64px;
+    letter-spacing: 0.04em;
 }
 
 .nav-link:hover,
@@ -47,7 +47,7 @@ ul {
     font-size: 16px;
     color: #434455;
     line-height: 1.5;
-    letter-spacing: 0.64px;
+    letter-spacing: 0.04em;
     font-style: normal;
 }
 
@@ -169,8 +169,18 @@ ul {
     background-color: #2e2f42;
 }
 
-.footer .logo {
+.footer-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
     color: #f4f4fd;
+    line-height: 1.33;
+}
+
+.footer-logo span {
+    color: #4d5ae5;
 }
 
 .footer-text {
